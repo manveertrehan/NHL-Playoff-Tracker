@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import FetchNHLStats from './components/FetchNHLStats';
 
-function App() {
+function App(props) {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <div>
+        <a href="https://www.nhl.com/standings/2021/wildcard">
+          <img src={require('.//images/nhloldlogo.png')} className="img" alt="" />
         </a>
-      </header>
+      </div>
+      <FetchNHLStats />
     </div>
   );
 }
