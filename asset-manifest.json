@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/NHL-Playoffs-Tracker/static/css/main.7837998b.css",
+    "main.js": "/NHL-Playoffs-Tracker/static/js/main.2e8c38be.js",
+    "static/js/787.62bcb102.chunk.js": "/NHL-Playoffs-Tracker/static/js/787.62bcb102.chunk.js",
+    "static/media/nhloldlogo.png": "/NHL-Playoffs-Tracker/static/media/nhloldlogo.8dcbd6f22879be02692d.png",
+    "static/media/logo.svg": "/NHL-Playoffs-Tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/NHL-Playoffs-Tracker/index.html",
+    "main.7837998b.css.map": "/NHL-Playoffs-Tracker/static/css/main.7837998b.css.map",
+    "main.2e8c38be.js.map": "/NHL-Playoffs-Tracker/static/js/main.2e8c38be.js.map",
+    "787.62bcb102.chunk.js.map": "/NHL-Playoffs-Tracker/static/js/787.62bcb102.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7837998b.css",
+    "static/js/main.2e8c38be.js"
+  ]
+}
