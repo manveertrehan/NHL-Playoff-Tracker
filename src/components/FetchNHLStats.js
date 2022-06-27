@@ -33,7 +33,7 @@ export default class FetchNHLStats extends React.Component {
 
     handleClick(e, valueA, valueB, valueC) {
 
-        for (var i = 0; i < 8; i++) {
+        for (let i = 0; i < 8; i++) {
             if (this.state.league[valueC].teamRecords[i].team.id === valueA) {
 
                 console.log(e, valueA, valueB, valueC)
