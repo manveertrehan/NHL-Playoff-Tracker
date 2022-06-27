@@ -31,17 +31,17 @@ export default class FetchNHLStats extends React.Component {
         console.log(this.state)
     }
 
-    handleClick(e, valueA, valueB, valueC) {
+    handleClick(e, teamID, conf, teamDiv) {
 
         for (let i = 0; i < 8; i++) {
-            if (this.state.league[valueC].teamRecords[i].team.id === valueA) {
+            if (this.state.league[teamDiv].teamRecords[i].team.id === teamID) {
 
-                console.log(e, valueA, valueB, valueC)
+                console.log(e, teamID, conf, teamDiv)
 
                 this.setState({
-                    team: this.state.league[valueC].teamRecords[i],
-                    conference: valueB,
-                    division: valueC,
+                    team: this.state.league[teamDiv].teamRecords[i],
+                    conference: conf,
+                    division: teamDiv,
                     loading: false
                 })
             }
